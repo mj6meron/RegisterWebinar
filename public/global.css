@@ -1,0 +1,47 @@
+* {
+  color: rgb(0, 1, 46);
+  font-family: arial;
+  font-size: large;
+  padding: 1%;
+  border-radius: 10px;
+  transition-duration: 0.1s;
+  text-align: center;
+  text-decoration: none;
+}
+*:hover {
+  transform: scale(1.01);
+}
+.registerForm {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2%;
+  margin: auto;
+  background-color: rgba(28, 1, 39, 0.2);
+}
+.fields {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1%;
+}
+.datavalue {
+  color: saddlebrown;
+  font-weight: bold;
+}
+
+button:hover,
+.datavalue:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.6);
+  transform: scale(1.1);
+}
+
+span {
+  padding: 0;
+}
